@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 7px;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #b3b1b1; 
+}
+
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+    background: #e6e2e2;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  form input {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  button {
+    margin: 0.3rem 0.3rem 0.3rem 0.5rem;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #1b50b3;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
+  .filtros {
+    margin-bottom: 4rem;
+  }
+  
+  .pelicula, .favoritos > div {
+    border-bottom: 1px solid #8b85ad;
+    padding: 0.5rem 0;
+  }
+
+  .favoritos h1{
+    text-align: center;
+  }
+  
